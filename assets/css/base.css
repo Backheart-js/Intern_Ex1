@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/new-york-extra-large');                
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.navbar-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 170%;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 640px;
+    height: 0px;
+    border-bottom: 2px solid var(--text-color);
+}
+
+.btn {
+    border: none;
+}
