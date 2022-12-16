@@ -59,7 +59,7 @@
     width: 100%;
 }
 .articles__link:hover > .articles__desc {
-    color: aqua;
+    color: #0096c7;
 }
 .articles__img {
     /* width: 100%; */
