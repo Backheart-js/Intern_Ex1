@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Article</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/_variable.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/listing.css">
+    <link rel="stylesheet" href="./assets/css/article.css">
 </head>
 <body>
     <header id="header" class="row">
@@ -51,117 +51,116 @@
     </header>    
 
     <main id="content">
-        <div class="container">
-            <div class="slider__wrapper container">
-                <img src="./assets/img/slider.png" alt="Main slider" class="slider__img">
+        <div class="summary__wrapper container">
+            <p class="summary__title title">
+                A few words about this blog platform, Ghost, and how this site was made
+            </p>
+            <div class="summary__content-wrapper">
+                <span class="summary__content">
+                    Why Ghost (& Figma) instead of Medium, WordPress or other options?
+                </span>
             </div>
-            <div class="summary__wrapper container">
-                <p class="summary__title title">
-                    A few words about this blog platform, Ghost, and how this site was made
-                </p>
-                <div class="summary__content-wrapper">
-                    <span class="summary__content">
-                        Why Ghost (& Figma) instead of Medium, WordPress or other options?
-                    </span>
-                </div>
-                <div class="line"></div>
-            </div>
+        </div>
+        <div class="slider__wrapper">
+            <img src="./assets/img/slider.png" alt="Main slider" class="slider__img">
+        </div>
+        <!-- <div class="container">
             <div class="articles__wrapper container">
                 <p class="articles__title title">
                     All articles
                 </p>
                 <div class="articles__gallery">
-                    <ul class="grid grid-col-2-pc">
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                    <ul class="articles__list row">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 12.png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     Here are some things you should know regarding how we work     
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 13.png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     Granny gives everyone the finger, and other tips from OFFF Barcelona
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 13 (1).png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     Hello world, or, in other words, why this blog exists
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 12 (1).png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     Here are some things you should know regarding how we work 
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 14.png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     Connecting artificial intelligence with digital product design
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 15.png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     It’s all about finding the perfect balance
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 12 (2).png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     I believe learning is the most important skill
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 13 (2).png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     Clients are part of the team
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 19.png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     Clients are part of the team
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 17.png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     Here are some things you should know regarding how we work 
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 16.png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     Connecting artificial intelligence with digital product design
                                 </p>
                             </a>
                         </li>
-                        <li class="grid-item">
-                            <a href="./article.html" class="articles__link">
+                        <li class="article__item">
+                            <a href="" class="articles__link">
                                 <img src="./assets/img/articles/Rectangle 18.png" alt="" class="articles__img">
                                 <p class="articles__desc">
                                     How modern remote working tools get along with Old School Cowboy's methods 
@@ -171,7 +170,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     </main>
 
     <footer id="footer" class="">
