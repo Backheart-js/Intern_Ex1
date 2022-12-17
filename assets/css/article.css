@@ -131,6 +131,9 @@
     flex-direction: column;
     align-items: center;
 }
+.post__img {
+    width: 100%;
+}
 .img-desc {
     width: 480px;
     margin-top: 8px;
@@ -169,6 +172,7 @@
     overflow: hidden;
 }
 .share__btn {
+    flex-grow: 1;
     height: 100%;
     font-size: 1.7rem;
     border: 2px solid #EAEAEA;
@@ -183,7 +187,7 @@
     font-family: sans-serif;
     margin-left: 6px;
 }
-.share__btn-mobile {
+.share__btn-mobile, .post__contact-mobile {
     display: none;
 }
 
@@ -308,4 +312,96 @@
 .email__submit-btn:hover {
     cursor: pointer;
     background-color: rgb(20, 20, 20);
+}
+
+/* Responsive */
+@media only screen and (max-width: 739px) {
+    #content {
+        margin-top: 100px;
+    }
+
+    .summary__wrapper {
+        width: 100%;
+    }
+    .summary__title {
+        width: 85%;
+        font-size: 3.6rem;
+    }
+    .summary__content {
+        font-size: 1.6rem;
+        width: 85%;
+    }
+
+    .author__wrapper {
+        flex-direction: column;
+
+    }
+
+    .post__part-1, .post__part-2 {
+        width: 90%;
+    }
+
+    .post__contact-wrapper {
+        margin-top: 32px;
+    }
+    .post__contact-mobile, .share__btn-mobile {
+        display: block;
+    }
+    .post__contact-mobile {
+        margin-bottom: 0;
+    }
+    .post__contact-btn {
+        flex-grow: 1;
+    }
+
+    .img-desc {
+        width: 90%;
+    }
+    .img-desc-text {
+        font-size: 1.3rem;
+    }
+
+    .post__share-wrapper {
+        width: 90%;
+    }
+    .share__text {
+        display: none;
+    }
+
+    .tag__wrapper {
+        width: 90%;
+    }
+    .post__note-wrapper {
+        width: 90%;
+    }
+    .avatar__wrapper {
+        display: none;
+    }
+    .post__note-text {
+        width: unset;
+        flex-grow: 1;
+    }
+
+    .articles__wrapper {
+        width: 90%;
+    }
+
+    .email {
+        width: 100%;
+        padding: 40px 32px;
+        border-left: unset;
+        border-right: unset;
+    }
+    .email__input {
+        width: 60%;
+        flex-grow: 1;
+    }
+    .email__submit-btn {
+        width: 110px;
+        border: none;
+    }
+
+    .articles__img {
+        height: unset;
+    }
 }
