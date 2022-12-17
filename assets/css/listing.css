@@ -61,9 +61,6 @@
 .articles__link:hover > .articles__desc {
     color: #0096c7;
 }
-.articles__img {
-    /* width: 100%; */
-}
 .articles__desc {
     font-style: normal;
     font-weight: 600;
