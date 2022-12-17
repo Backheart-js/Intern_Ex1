@@ -128,10 +128,12 @@
     }
 
     .menu__mobile-wrapper {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
     }
     .menu__mobile-btn {
-        height: 100%;
         background-color: transparent;
     }
     .menu__mobile-btn > i {
