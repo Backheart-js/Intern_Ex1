@@ -73,3 +73,42 @@
     line-height: 120%;
     text-align: center;
 }
+
+
+/* Responsive */
+@media only screen and (max-width: 739px) {
+    #content {
+        margin-top: 100px;
+    }
+
+    .slider__wrapper {
+        width: 100%;
+    }
+
+    .summary__wrapper {
+        width: 100%;
+    }
+    .summary__title {
+        width: 85%;
+        font-size: 3.6rem;
+    }
+    .summary__content {
+        font-size: 1.6rem;
+        width: 85%;
+    }
+
+    .articles__title {
+        font-size: 3.2rem;
+    }
+    .articles__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .articles__img {
+        width: 90%;
+    }
+    .articles__desc {
+        width: 75%;
+    }
+}

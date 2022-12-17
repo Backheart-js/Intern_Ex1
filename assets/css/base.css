@@ -90,3 +90,12 @@ ul {
 .btn {
     border: none;
 }
+
+@media only screen and (max-width: 739px) {
+    .line {
+        width: 100%;
+    }
+    .grid-col-1-mobile {
+        grid-template-columns: auto;
+    }
+}
